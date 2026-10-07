@@ -1,0 +1,17 @@
+﻿campo_tecnico,etiqueta,tipo,familia,pct_poblado,valores_distintos,significado_negocio,pregunta_que_responde,riesgo_calidad,entra_al_modelo
+date,Date,date,TIEMPO,100.0,33,Fecha contable del asiento. Puede diferir de la fecha de factura por cierres de período.,¿En qué período contable se reconoció el ingreso?,"Si difiere de invoice_date, definir cuál usar y documentar la decisión.",SI
+amount,Amount,monetary,MONTO,100.0,37,Monto del pago recibido.,¿Cuánto dinero entró efectivamente?,Un pago puede cubrir varias facturas: no asumir correspondencia uno a uno.,SI
+company_id,Company,many2one,RELACION,100.0,3,Entidad emisora. Crítico: el sistema administra 8 entidades distintas.,¿Cuánto factura cada entidad de la cartera administrada?,Omitir este campo mezcla la facturación de empresas que no tienen relación entre sí.,SI
+destination_account_id,Destination Account,many2one,RELACION,100.0,3,Cuenta de destino del dinero cobrado.,¿A qué cuenta entra el efectivo?,"3 valores distintos, coincide con las 3 entidades activas.",SI
+journal_id,Journal,many2one,RELACION,100.0,5,Diario contable donde se registra el documento.,¿Por qué canal o tipo de operación entra cada registro?,Útil para separar operaciones distintas dentro de una misma entidad.,SI
+partner_id,Customer/Vendor,many2one,RELACION,100.0,67,Cliente al que se emite la factura.,¿Quién genera el ingreso y qué tan concentrado está?,Verificar duplicados: hay 188 clientes registrados para 185 facturas.,SI
+payment_method_line_id,Payment Method,many2one,RELACION,100.0,5,"Método de pago utilizado: efectivo, transferencia, cheque.",¿Cómo prefieren pagar los clientes?,5 métodos distintos en uso. Dato aprovechable para el tablero.,SI
+state,State,selection,ESTADO,100.0,3,"Estado del documento: borrador, publicado o cancelado.",¿Qué facturas son válidas para el análisis?,"Los borradores deben excluirse siempre. Actualmente hay cero, pero eso puede cambiar.",SI
+name,Number,char,CLASIFICACION,100.0,65,Número del documento. En facturas de cliente es el correlativo interno del sistema.,¿Cómo identifico una factura de forma única?,No confundir con el NCF: el correlativo interno no es el comprobante fiscal.,SI
+amount_company_currency_signed,Amount Company Currency Signed,monetary,ESPEJO,100.0,37,"Monto del pago en moneda de la empresa, con signo.",,Redundante con amount.,NO
+outstanding_account_id,Outstanding Account,many2one,RELACION,100.0,4,Cuenta transitoria donde queda el pago antes de conciliarse con el banco.,,Concepto contable interno.,NO
+invoice_ids,Invoices,many2many,RELACION,100.0,85,Facturas que este pago salda. ENLACE CRÍTICO.,,Poblado al 100%. Habilita calcular los días reales entre factura y cobro.,SI
+memo,Memo,char,TECNICO,100.0,72,Nota libre escrita en el pago.,,"Texto sin estructura. Revisable a mano, no modelable.",NO
+move_id,Journal Entry,many2one,RELACION,98.9,91,Factura a la que pertenece la línea. Es la llave que une ambas tablas.,,Sin este campo no se puede relacionar el detalle con la cabecera.,SI
+is_reconciled,Is Reconciled,boolean,ESTADO,95.6,2,Indica si el pago ya fue aplicado a facturas.,,Al 96%: casi todos los pagos están aplicados. Buena señal de orden contable.,SI
+is_matched,Is Matched With a Bank Statement,boolean,ESTADO,33.0,2,Indica si el pago fue cruzado contra el extracto bancario.,,Solo al 33%. Dos tercios de los pagos no están conciliados con el banco. HALLAZGO.,SI
