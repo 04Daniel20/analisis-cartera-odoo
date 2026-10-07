@@ -1,0 +1,26 @@
+﻿campo_tecnico,etiqueta,tipo,familia,pct_poblado,valores_distintos,significado_negocio,pregunta_que_responde,riesgo_calidad,entra_al_modelo
+customer_rank,Customer Rank,integer,MONTO,100.0,15,Indicador de que el contacto es cliente.,¿Cuántos contactos son realmente clientes y no prospectos?,188 clientes registrados pero solo 67 con pagos: revisar inactivos y duplicados.,SI
+supplier_rank,Supplier Rank,integer,MONTO,100.0,2,Indicador de que el contacto es proveedor.,¿Hay contactos que son cliente y proveedor a la vez?,Los casos duales requieren tratamiento aparte en el modelo.,SI
+commercial_partner_id,Commercial Entity,many2one,RELACION,100.0,242,Entidad comercial matriz del contacto. Agrupa sucursales bajo un mismo cliente.,¿Cuál es la concentración real de ingresos por grupo económico?,Analizar por partner_id en vez de este campo puede ocultar concentración.,SI
+name,Name,char,CLASIFICACION,100.0,234,Número del documento. En facturas de cliente es el correlativo interno del sistema.,¿Cómo identifico una factura de forma única?,No confundir con el NCF: el correlativo interno no es el comprobante fiscal.,SI
+vat,Tax ID,char,CLASIFICACION,59.8,142,RNC o cédula del cliente. Identificación fiscal.,¿Puedo emitir comprobante de crédito fiscal a este cliente?,"50 de 188 clientes sin RNC. Sin RNC no se puede emitir B01, solo B02.",SI
+is_company,Is a Company,boolean,ESTADO,44.3,2,Distingue empresa de persona física.,¿Qué proporción de la cartera es B2B contra B2C?,95 empresas y 93 personas: la cartera está partida casi a la mitad.,SI
+email,Email,char,CLASIFICACION,18.0,31,Correo electrónico del cliente.,¿Puedo entregar comprobantes fiscales electrónicos de forma automática?,181 de 188 sin correo (96%). Riesgo operativo frente a la facturación electrónica.,SI
+country_id,Country,many2one,RELACION,17.6,4,País del cliente.,¿Hay clientes en el exterior con tratamiento fiscal distinto?,Relevante para exenciones de ITBIS en exportación de servicios.,SI
+company_id,Company,many2one,RELACION,9.0,3,Entidad emisora. Crítico: el sistema administra 8 entidades distintas.,¿Cuánto factura cada entidad de la cartera administrada?,Omitir este campo mezcla la facturación de empresas que no tienen relación entre sí.,SI
+parent_id,Related Company,many2one,RELACION,1.2,4,"Contacto padre, cuando el registro es una sucursal o un contacto de empresa.",¿Estoy contando una empresa varias veces?,Fuente frecuente de duplicados aparentes en el conteo de clientes.,SI
+property_stock_customer,Customer Location,many2one,TECNICO,100.0,3,Ubicación de inventario asociada al cliente.,,Pertenece al módulo de almacén. Irrelevante en una firma de servicios.,NO
+property_stock_supplier,Vendor Location,many2one,TECNICO,100.0,3,Ubicación de inventario asociada al proveedor.,,Mismo caso.,NO
+l10n_do_dgii_tax_payer_type,Tipo contribuyente DGII,selection,CLASIFICACION,100.0,2,Tipo de contribuyente según la DGII.,,Al 100% con 2 valores. Clasificación fiscal oficial de cada cliente.,SI
+complete_name,Complete Name,char,ESPEJO,100.0,234,Nombre del contacto incluyendo su empresa padre.,,Redundante con name más parent_id.,NO
+tz,Timezone,selection,TECNICO,95.5,7,Zona horaria del contacto.,,Todos operan en el mismo país.,NO
+partner_share,Share Partner,boolean,TECNICO,94.3,2,Marca si el contacto puede acceder al portal externo.,,Configuración de accesos.,NO
+phone,Phone,char,CLASIFICACION,58.2,125,Teléfono del cliente.,,"Al 58%. Contrastar con el 4% que tiene correo: hay canal de contacto, pero no digital.",SI
+phone_sanitized,Sanitized Number,char,ESPEJO,56.6,123,Teléfono normalizado a formato internacional.,,"Versión limpia de phone. Útil para integraciones, no para análisis.",NO
+l10n_do_rnc_last_checked,Última verificación RNC,datetime,TIEMPO,48.0,116,Última vez que el RNC se verificó contra la DGII.,,Al 48%: la verificación existe y se aplica en la mitad de los casos. Preguntar el criterio.,SI
+l10n_do_rnc_economic_activity,Actividad económica (DGII),char,CLASIFICACION,48.0,71,Actividad económica del cliente según registro en la DGII.,,71 actividades distintas. DA LA SEGMENTACION SECTORIAL DE LA CARTERA.,SI
+l10n_do_rnc_payment_regimen,Régimen de pago (DGII),char,CLASIFICACION,48.0,3,Régimen de pago fiscal del cliente.,,3 valores. Distingue tipos de contribuyente con obligaciones distintas.,SI
+l10n_do_rnc_status,Estado DGII,char,ESTADO,48.0,4,"Estado del RNC en la DGII: activo, suspendido u otro.",,Un cliente con RNC no activo es un riesgo al emitir crédito fiscal.,SI
+commercial_company_name,Company Name Entity,char,CLASIFICACION,45.1,106,Razón social de la entidad comercial del contacto.,,Redundante para análisis: usar commercial_partner_id.,NO
+l10n_do_rnc_operation_start,Inicio de operaciones (DGII),char,TIEMPO,45.1,107,Fecha de inicio de operaciones del cliente según la DGII.,,Permite medir antigüedad del cliente como empresa. Dato externo y confiable.,SI
+invoice_ids,Invoices,one2many,RELACION,44.3,109,Facturas que este pago salda. ENLACE CRÍTICO.,,Poblado al 100%. Habilita calcular los días reales entre factura y cobro.,SI
