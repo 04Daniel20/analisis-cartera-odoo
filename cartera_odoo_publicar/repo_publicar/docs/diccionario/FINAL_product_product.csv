@@ -1,4 +1,0 @@
-﻿campo_tecnico,etiqueta,tipo,familia,pct_poblado,valores_distintos,significado_negocio,pregunta_que_responde,riesgo_calidad,entra_al_modelo
-standard_price,Cost,float,MONTO,100.0,11,Costo del servicio.,¿Cuál es el margen por servicio?,En servicios profesionales rara vez refleja costo real sin registro de horas.,SI
-default_code,Internal Reference,char,CLASIFICACION,36.5,12,Código interno del servicio.,¿El catálogo de servicios está codificado y ordenado?,Solo 36.5% poblado: dos tercios de los servicios no tienen código.,SI
-product_tmpl_id,Product Template,many2one,RELACION,100.0,52,Plantilla del servicio. Agrupa variantes bajo un mismo concepto.,,"Con 52 valores para 52 productos, cada servicio es único: no hay variantes.",SI

@@ -1,8 +1,0 @@
-# Los scripts de extracción usan únicamente la biblioteca estándar de Python:
-#   xmlrpc.client, csv, os, datetime
-#
-# No hace falta instalar nada. Este archivo existe para dejarlo explícito:
-# un proyecto sin dependencias externas es un proyecto que no se rompe
-# cuando una librería cambia de versión.
-#
-# Requiere Python 3.8 o superior.
