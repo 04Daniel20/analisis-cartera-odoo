@@ -1,0 +1,56 @@
+# ===============================================================
+# Credenciales. Nunca, bajo ninguna circunstancia.
+# ===============================================================
+.env
+.env.*
+!.env.ejemplo
+*.key
+credenciales*
+secretos*
+config_local.py
+
+# ===============================================================
+# Datos reales del cliente.
+# Solo se publica dataset_ejemplo/, que esta anonimizado.
+# ===============================================================
+dataset/
+salida/
+datos_reales/
+*.xlsx
+*.xls
+
+# CSV: bloqueados por defecto, con excepcion explicita para los de ejemplo
+*.csv
+!dataset_ejemplo/*.csv
+
+# ===============================================================
+# Archivos de Power BI (contienen el dataset embebido)
+# ===============================================================
+*.pbix
+*.pbit
+
+# ===============================================================
+# Registros de ejecucion
+# ===============================================================
+log_*.txt
+*.log
+
+# ===============================================================
+# Python
+# ===============================================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ===============================================================
+# Sistema operativo y editores
+# ===============================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+~$*
