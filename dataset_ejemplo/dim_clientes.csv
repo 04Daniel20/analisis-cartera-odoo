@@ -1,0 +1,189 @@
+﻿id_cliente,cliente,tiene_rnc,tiene_correo,tiene_telefono,tipo,tipo_contribuyente,actividad_economica,estado_dgii,regimen_pago,inicio_operaciones,verificado_dgii,id_cliente_matriz,es_sucursal,pais
+102,Tecnologia Bavaro SRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,102,0,Sin registrar
+103,Refrigeracion Hispaniola SA,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,103,0,Sin registrar
+114,REFRIGERACION HISPANIOLA S.A.,0,0,0,Empresa,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,ACTIVO,RST,2020-10-27,1,114,0,Sin registrar
+117,Metalurgica Higuey SAS,1,0,0,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2012-07-13,1,117,0,Sin registrar
+127,Panificadora del Caribe SRL,1,0,1,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,ACTIVO,NORMAL,2022-10-05,1,127,0,Sin registrar
+131,Consultores del Norte SRL,1,0,1,Empresa,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,CESE TEMPORAL,NORMAL,2023-12-23,1,127,1,Sin registrar
+135,Consultores Bani SRL,1,0,1,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2021-08-12,1,127,1,Dominican Republic
+141,Farmaceutica Cibao SA,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,127,1,Sin registrar
+159,Editorial Bani SA,1,0,1,Empresa,taxpayer,FABRICACION DE PRODUCTOS METALICOS,SUSPENDIDO,NORMAL,2011-08-08,1,159,0,Sin registrar
+160,Panificadora Los Alcarrizos SRL,1,1,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,160,0,Sin registrar
+168,Servicios Cibao SRL,0,0,1,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,RST,2019-06-14,1,168,0,Dominican Republic
+170,Inversiones Monte Plata SRL,1,0,1,Empresa,taxpayer,FABRICACION DE PRODUCTOS METALICOS,ACTIVO,RST,2023-03-18,1,170,0,Sin registrar
+172,Refrigeracion Cibao SRL,1,0,1,Empresa,taxpayer,SERVICIOS DE COMIDAS Y BEBIDAS,SUSPENDIDO,NORMAL,2008-08-19,1,172,0,Sin registrar
+175,Comercial del Norte SAS,0,0,0,Empresa,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,ACTIVO,NORMAL,2009-03-04,1,175,0,Sin registrar
+178,Tecnologia Bavaro EIRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,178,0,Sin registrar
+181,Alimentos Los Alcarrizos EIRL,1,0,0,Empresa,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,ACTIVO,NORMAL,2018-07-25,1,181,0,Sin registrar
+184,Textiles Higuey EIRL,1,0,1,Empresa,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,SUSPENDIDO,NORMAL,2019-05-30,1,184,0,Sin registrar
+189,Refrigeracion del Sur SA,0,0,0,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,SUSPENDIDO,NORMAL,2019-09-21,1,189,0,Sin registrar
+192,Tecnologia Jarabacoa EIRL,1,0,1,Empresa,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,CESE TEMPORAL,NORMAL,2022-12-12,1,192,0,Sin registrar
+194,Ferreteria San Isidro EIRL,1,0,0,Empresa,taxpayer,TRANSPORTE DE CARGA POR CARRETERA,SUSPENDIDO,NORMAL,2019-05-19,1,194,0,Sin registrar
+202,Alimentos del Norte SA,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,202,0,Sin registrar
+203,Refrigeracion Jarabacoa SRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,203,0,Sin registrar
+206,Transporte Bani SAS,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,206,0,Sin registrar
+209,Farmaceutica del Norte SRL,1,0,1,Empresa,taxpayer,REPARACION DE VEHICULOS AUTOMOTORES,ACTIVO,NORMAL,2011-10-26,1,209,0,Sin registrar
+216,Seguridad Los Alcarrizos SRL,1,0,0,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,SUSPENDIDO,NORMAL,2016-03-31,1,216,0,Sin registrar
+218,Logistica Moca SAS,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,218,0,Sin registrar
+230,Inversiones Boca Chica SRL,0,0,0,Empresa,taxpayer,SERVICIOS DE COMIDAS Y BEBIDAS,SUSPENDIDO,NORMAL,2012-03-03,1,230,0,Sin registrar
+237,Ferreteria Moca SRL,1,0,1,Empresa,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,SUSPENDIDO,NORMAL,2019-07-20,1,237,0,Sin registrar
+238,Inmobiliaria Cibao SRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,238,0,Sin registrar
+245,Tecnologia Monte Plata SRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,245,0,Sin registrar
+246,Comercial Hispaniola SA,1,0,0,Empresa,taxpayer,REPARACION DE VEHICULOS AUTOMOTORES,ACTIVO,NORMAL,2010-05-08,1,246,0,Sin registrar
+252,Logistica Monte Plata SRL,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,252,0,Sin registrar
+253,Metalurgica Samana SRL,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,253,0,Sin registrar
+254,Textiles La Vega EIRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,254,0,Sin registrar
+261,Alimentos Hispaniola SA,1,0,1,Empresa,taxpayer,SERVICIOS DE COMIDAS Y BEBIDAS,SUSPENDIDO,NORMAL,2017-10-12,1,261,0,Dominican Republic
+264,Distribuidora Villa Mella SAS,1,0,0,Empresa,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,ACTIVO,NORMAL,2016-02-17,1,264,0,Sin registrar
+273,Consultores Duarte SA,1,0,0,Empresa,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,ACTIVO,NORMAL,2009-07-22,1,273,0,Sin registrar
+279,Inmobiliaria del Norte SAS,1,0,0,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,ACTIVO,NORMAL,2023-05-23,1,279,0,Sin registrar
+280,Consultores Hispaniola SA,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,280,0,Sin registrar
+282,Inversiones Bani SRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,282,0,Sin registrar
+284,Editorial Hispaniola SAS,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,284,0,Sin registrar
+287,Tecnologia San Isidro SRL,0,0,0,Empresa,taxpayer,ENSENANZA PREPRIMARIA Y PRIMARIA,SUSPENDIDO,NORMAL,2014-02-08,1,287,0,Dominican Republic
+288,Logistica Bavaro EIRL,1,0,0,Empresa,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,ACTIVO,NORMAL,2016-10-18,1,288,0,Dominican Republic
+289,Papelera Quisqueya SA,1,0,1,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2018-07-17,1,289,0,Sin registrar
+294,Transporte Los Alcarrizos SRL,0,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,294,0,Sin registrar
+299,Constructora Las Terrenas SRL,0,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,299,0,Sin registrar
+303,Importadora del Este SRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,303,0,Sin registrar
+309,Logistica Bani EIRL,0,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,309,0,Sin registrar
+312,Comercial del Caribe SAS,0,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,312,0,Sin registrar
+313,Papelera Haina SAS,1,0,0,Empresa,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,ACTIVO,NORMAL,2010-10-22,1,313,0,Sin registrar
+314,Logistica Boca Chica SRL,1,0,0,Empresa,taxpayer,FABRICACION DE PRODUCTOS METALICOS,SUSPENDIDO,NORMAL,2019-05-11,1,314,0,Sin registrar
+317,Inmobiliaria Haina SAS,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,317,0,Sin registrar
+319,Textiles Boca Chica SRL,1,0,1,Empresa,taxpayer,TRANSPORTE DE CARGA POR CARRETERA,ACTIVO,NORMAL,2009-06-30,1,319,0,Sin registrar
+320,Consultores La Vega EIRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,320,0,Sin registrar
+321,Logistica Los Alcarrizos SA,1,0,1,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,ACTIVO,NORMAL,2012-09-05,1,321,0,Dominican Republic
+322,Farmaceutica Samana SA,1,0,1,Empresa,taxpayer,SERVICIOS DE COMIDAS Y BEBIDAS,ACTIVO,NORMAL,2008-12-06,1,322,0,Sin registrar
+325,Automotriz Monte Plata SA,1,0,0,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,ACTIVO,RST,2006-12-19,1,325,0,Sin registrar
+326,Importadora La Vega SRL,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,326,0,Sin registrar
+328,Panificadora Bani SA,1,0,1,Empresa,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,ACTIVO,NORMAL,2006-08-02,1,328,0,Sin registrar
+330,Automotriz Ozama SRL,1,0,1,Empresa,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,SUSPENDIDO,NORMAL,2007-06-14,1,330,0,Sin registrar
+333,Papelera del Este SRL,1,0,1,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,SUSPENDIDO,NORMAL,2022-03-08,1,333,0,Sin registrar
+338,Refrigeracion Hispaniola SRL,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,338,0,Sin registrar
+344,Comercial Jarabacoa SAS,1,0,1,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2010-09-06,1,344,0,Dominican Republic
+349,Constructora del Caribe SRL,1,0,1,Empresa,taxpayer,FABRICACION DE PRODUCTOS METALICOS,SUSPENDIDO,NORMAL,2009-06-02,1,349,0,Sin registrar
+353,Comercial Bavaro SRL,0,0,1,Empresa,taxpayer,ENSENANZA PREPRIMARIA Y PRIMARIA,SUSPENDIDO,NORMAL,2009-01-20,1,353,0,Dominican Republic
+360,Inmobiliaria Quisqueya SAS,0,0,0,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2012-12-11,1,360,0,Sin registrar
+363,Farmaceutica Monte Plata SAS,1,0,0,Empresa,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,SUSPENDIDO,NORMAL,2010-04-23,1,363,0,Dominican Republic
+364,Distribuidora Villa Mella SRL,1,0,1,Empresa,taxpayer,SERVICIOS DE COMIDAS Y BEBIDAS,ACTIVO,NORMAL,2017-03-01,1,364,0,Sin registrar
+365,Panificadora Boca Chica SAS,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,365,0,Sin registrar
+368,Tecnologia Jarabacoa SA,1,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,368,0,Sin registrar
+369,Importadora del Este SA,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,369,0,Sin registrar
+386,Editorial Los Alcarrizos SA,0,0,0,Empresa,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,SUSPENDIDO,NORMAL,2019-01-14,1,386,0,Sin registrar
+389,Tecnologia Moca SRL,0,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,389,0,Sin registrar
+391,Seguridad del Sur SAS,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,391,0,Sin registrar
+406,Logistica del Este SAS,1,0,0,Empresa,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2012-11-27,1,406,0,Dominican Republic
+407,Inversiones Cibao SRL,0,0,1,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,SUSPENDIDO,NORMAL,2013-12-11,1,407,0,Sin registrar
+418,Refrigeracion San Isidro SA,1,0,1,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,SUSPENDIDO,NORMAL,2017-12-21,1,418,0,Dominican Republic
+424,Distribuidora Haina SA,0,0,1,Empresa,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,SUSPENDIDO,NORMAL,2010-07-24,1,424,0,Sin registrar
+427,Logistica Higuey SA,1,0,1,Empresa,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,ACTIVO,NORMAL,2006-04-17,1,427,0,Sin registrar
+428,Comercial Bani EIRL,0,0,0,Empresa,taxpayer,SERVICIOS DE COMIDAS Y BEBIDAS,ACTIVO,NORMAL,2009-03-08,1,428,0,Sin registrar
+430,Importadora Bani SA,1,0,1,Empresa,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,ACTIVO,NORMAL,2011-12-10,1,430,0,Sin registrar
+431,Ferreteria Bani SAS,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,431,0,Sin registrar
+435,Distribuidora Bavaro EIRL,1,1,1,Empresa,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,SUSPENDIDO,NORMAL,2015-06-10,1,435,0,Sin registrar
+437,Agropecuaria Samana SA,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,437,0,Sin registrar
+440,Constructora Higuey SA,1,0,1,Empresa,taxpayer,FABRICACION DE PRODUCTOS METALICOS,ACTIVO,NORMAL,2020-03-16,1,440,0,Sin registrar
+441,Metalurgica Monte Plata SRL,1,0,1,Empresa,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,ACTIVO,NORMAL,2020-04-29,1,441,0,Sin registrar
+443,Inmobiliaria Bani SRL,0,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,443,0,Sin registrar
+444,Importadora Higuey SRL,1,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,444,0,Sin registrar
+446,Ferreteria del Sur SRL,1,0,0,Empresa,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,ACTIVO,NORMAL,2017-05-01,1,446,0,Sin registrar
+456,Inversiones Quisqueya EIRL,0,1,1,Empresa,taxpayer,ENSENANZA PREPRIMARIA Y PRIMARIA,ACTIVO,NORMAL,2014-08-29,1,456,0,Dominican Republic
+463,Importadora Bani SRL,1,0,1,Empresa,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,SUSPENDIDO,NORMAL,2019-05-08,1,463,0,Sin registrar
+465,Comercial Boca Chica SAS,0,0,0,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,465,0,Sin registrar
+466,Tecnologia Haina SAS,1,0,1,Empresa,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,ACTIVO,NORMAL,2006-12-14,1,466,0,Sin registrar
+473,Inversiones Jarabacoa SA,0,0,1,Empresa,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,473,0,Sin registrar
+480,Comercial del Este SRL,1,0,1,Empresa,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,SUSPENDIDO,NORMAL,2019-09-27,1,480,0,Sin registrar
+483,Pedro Jimenez Carrasco,0,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,483,0,Sin registrar
+486,Mercedes Lantigua Carrasco,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,486,0,Sin registrar
+488,Noemi Abreu Terrero,1,0,1,Persona física,taxpayer,REPARACION DE VEHICULOS AUTOMOTORES,SUSPENDIDO,NORMAL,2023-02-12,1,488,0,Dominican Republic
+491,Ernesto Tavarez Encarnacion,1,0,1,Persona física,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,ACTIVO,NORMAL,2023-09-16,1,491,0,Sin registrar
+495,Noemi Terrero Nunez,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,495,0,Sin registrar
+499,Ingrid Mejia Objio,1,0,1,Persona física,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,ACTIVO,NORMAL,2023-08-28,1,499,0,Sin registrar
+500,Altagracia Nunez Rosario,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,500,0,Sin registrar
+504,Amaury Dominguez Carrasco,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,504,0,Sin registrar
+513,Rosa Medina Nunez,1,0,1,Persona física,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,ACTIVO,NORMAL,2008-03-25,1,513,0,Sin registrar
+518,Clara Abreu Terrero,0,0,1,Persona física,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,ACTIVO,NORMAL,2014-04-27,1,518,0,Dominican Republic
+528,Amaury Lantigua Lantigua,1,0,1,Persona física,taxpayer,REPARACION DE VEHICULOS AUTOMOTORES,SUSPENDIDO,NORMAL,2006-05-17,1,528,0,Sin registrar
+538,Amaury Tavarez Lantigua,0,0,1,Persona física,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,ACTIVO,NORMAL,2014-11-05,1,538,0,Dominican Republic
+539,Yudelka Polanco Peralta,1,0,1,Persona física,taxpayer,FABRICACION DE PRODUCTOS METALICOS,SUSPENDIDO,NORMAL,2006-03-06,1,539,0,Sin registrar
+545,Juan Objio Montero,0,0,1,Persona física,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,ACTIVO,NORMAL,2006-03-22,1,545,0,Dominican Republic
+560,Elvis Jimenez Objio,1,0,1,Persona física,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,ACTIVO,NORMAL,2021-07-01,1,560,0,Sin registrar
+563,Noemi Jimenez Ventura,0,0,1,Persona física,taxpayer,REPARACION DE VEHICULOS AUTOMOTORES,SUSPENDIDO,NORMAL,2023-02-26,1,563,0,Sin registrar
+567,Eduardo Terrero Polanco,1,1,1,Persona física,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,SUSPENDIDO,NORMAL,2016-11-25,1,567,0,Dominican Republic
+574,Altagracia Medina Severino,0,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,574,0,Sin registrar
+575,Carlos Reynoso Pujols,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,575,0,Sin registrar
+577,Scarlet Rosario Peralta,1,0,1,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,ACTIVO,NORMAL,2009-04-22,1,577,0,Sin registrar
+582,Milagros Valdez Encarnacion,1,0,1,Persona física,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,ACTIVO,NORMAL,2018-02-11,1,582,0,Sin registrar
+583,Carmen Zorrilla Castro,0,0,0,Persona física,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,ACTIVO,NORMAL,2011-06-04,1,583,0,Sin registrar
+598,Ingrid Zorrilla Polanco,1,0,1,Persona física,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2012-12-05,1,598,0,Dominican Republic
+601,Dalia Mejia Castro,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,601,0,Sin registrar
+602,Carlos Hiciano Ventura,0,0,1,Persona física,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,ACTIVO,NORMAL,2023-07-14,1,602,0,Sin registrar
+603,Josefina Tavarez Mejia,1,0,0,Persona física,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,ACTIVO,NORMAL,2010-10-05,1,603,0,Sin registrar
+612,Victor Rosario Jimenez,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,612,0,Sin registrar
+614,Noemi Dominguez Sanchez,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,614,0,Sin registrar
+620,Ramon Nunez Rosario,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,620,0,Sin registrar
+626,Ernesto Valdez Medina,1,0,1,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,SUSPENDIDO,NORMAL,2018-02-13,1,626,0,Sin registrar
+627,Rosa Abreu Valdez,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,627,0,Sin registrar
+640,Esperanza Peralta Mejia,0,0,1,Persona física,taxpayer,ENSENANZA PREPRIMARIA Y PRIMARIA,SUSPENDIDO,NORMAL,2009-06-03,1,640,0,Dominican Republic
+643,Rosa Tavarez Abreu,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,643,0,Sin registrar
+647,Yokasta Cedeno Reynoso,1,0,1,Persona física,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,ACTIVO,NORMAL,2013-04-07,1,647,0,Sin registrar
+649,Minerva Severino Tavarez,0,0,1,Persona física,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,ACTIVO,NORMAL,2006-03-21,1,649,0,Sin registrar
+652,Belkis Dominguez Tavarez,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,652,0,Sin registrar
+656,Yudelka Carrasco Mejia,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,656,0,Sin registrar
+676,Ruth Castro Valdez,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,676,0,Sin registrar
+690,Eduardo Medina Polanco,1,0,0,Persona física,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,ACTIVO,NORMAL,2021-10-06,1,690,0,Sin registrar
+691,Altagracia Valdez Bautista,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,691,0,Sin registrar
+693,Carlos Jimenez Bautista,0,0,0,Persona física,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,ACTIVO,NORMAL,2019-01-05,1,693,0,Dominican Republic
+695,Manuel Sanchez Sanchez,1,0,0,Persona física,taxpayer,TRANSPORTE DE CARGA POR CARRETERA,CESE TEMPORAL,NORMAL,2007-06-17,1,695,0,Dominican Republic
+707,Massiel Terrero Severino,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,707,0,Sin registrar
+709,Ruth Carrasco Pujols,1,0,1,Persona física,taxpayer,ACTIVIDADES INMOBILIARIAS CON BIENES PROPIOS,ACTIVO,NORMAL,2010-12-23,1,709,0,Sin registrar
+720,Ramon Guerrero Bautista,1,0,1,Persona física,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,SUSPENDIDO,NORMAL,2019-10-11,1,720,0,Sin registrar
+721,Noemi Cedeno Valdez,0,0,1,Persona física,taxpayer,SERVICIOS DE COMIDAS Y BEBIDAS,ACTIVO,NORMAL,2019-01-29,1,721,0,Sin registrar
+723,Belkis Cedeno Nunez,0,0,0,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,ACTIVO,NORMAL,2009-01-03,1,723,0,Sin registrar
+727,Wilson Valdez Ventura,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,727,0,Sin registrar
+734,Scarlet Abreu Terrero,1,0,1,Persona física,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2022-07-02,1,734,0,Sin registrar
+737,Ivelisse Zorrilla Polanco,1,0,0,Persona física,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,SUSPENDIDO,RST,2022-08-22,1,737,0,Sin registrar
+738,Altagracia Castro Sanchez,1,0,1,Persona física,taxpayer,REPARACION DE VEHICULOS AUTOMOTORES,ACTIVO,NORMAL,2010-12-31,1,738,0,Sin registrar
+741,Francisco Rosario Jimenez,0,0,1,Persona física,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,ACTIVO,NORMAL,2012-09-26,1,741,0,Sin registrar
+748,Josefina Cedeno Bautista,1,1,1,Persona física,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,SUSPENDIDO,NORMAL,2016-12-20,1,748,0,Dominican Republic
+750,Rodolfo Castro Sanchez,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,750,0,Sin registrar
+758,Massiel Medina Terrero,0,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,758,0,Sin registrar
+759,Yokasta Severino Tavarez,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,759,0,Sin registrar
+764,Esperanza Reynoso Pujols,1,0,1,Persona física,taxpayer,VENTA AL POR MAYOR DE ALIMENTOS Y BEBIDAS,SUSPENDIDO,RST,2022-10-04,1,764,0,Sin registrar
+765,Ivelisse Hiciano Carrasco,1,0,1,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,SUSPENDIDO,NORMAL,2011-12-15,1,765,0,Sin registrar
+771,Scarlet Bautista Sanchez,1,0,1,Persona física,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,SUSPENDIDO,NORMAL,2014-07-01,1,771,0,Sin registrar
+775,Fernando Hiciano Reynoso,1,0,0,Persona física,taxpayer,ENSENANZA PREPRIMARIA Y PRIMARIA,SUSPENDIDO,NORMAL,2013-05-30,1,775,0,Dominican Republic
+783,Manuel Carrasco Encarnacion,0,0,1,Persona física,taxpayer,FABRICACION DE PRODUCTOS METALICOS,ACTIVO,NORMAL,2011-10-18,1,783,0,Dominican Republic
+785,Pedro Hiciano Pujols,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,785,0,Sin registrar
+789,Juan Severino Montero,0,0,0,Persona física,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,SUSPENDIDO,NORMAL,2023-06-17,1,789,0,Sin registrar
+791,Carmen Reynoso Mejia,0,0,0,Persona física,taxpayer,ENSENANZA PREPRIMARIA Y PRIMARIA,SUSPENDIDO,NORMAL,2014-09-11,1,791,0,Sin registrar
+794,Luis Dominguez Reynoso,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,794,0,Sin registrar
+803,Josefina Encarnacion Cedeno,0,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,803,0,Sin registrar
+808,Josefina Objio Valdez,1,1,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,808,0,Sin registrar
+814,Ivelisse Castro Peralta,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,814,0,Sin registrar
+815,Josefina Montero Ventura,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,815,0,Sin registrar
+816,Yaquelin Objio Zorrilla,0,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,816,0,Sin registrar
+820,Rafael Pujols Severino,1,0,1,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,ACTIVO,NORMAL,2013-10-05,1,820,0,Sin registrar
+821,Clara Jimenez Lantigua,1,0,1,Persona física,taxpayer,TRANSPORTE DE CARGA POR CARRETERA,ACTIVO,NORMAL,2018-11-12,1,821,0,Sin registrar
+824,Yaquelin Polanco Valdez,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,824,0,Sin registrar
+825,Mercedes Sanchez Medina,1,0,1,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,SUSPENDIDO,NORMAL,2008-06-18,1,825,0,Sin registrar
+833,Noemi Valdez Valdez,1,0,1,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,SUSPENDIDO,NORMAL,2009-05-17,1,833,0,Sin registrar
+840,Milagros Zorrilla Peralta,1,0,1,Persona física,taxpayer,ACTIVIDADES DE ASOCIACIONES N.C.P.,ACTIVO,NORMAL,2010-01-29,1,840,0,Dominican Republic
+845,Fernando Peralta Reynoso,1,0,0,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,ACTIVO,NORMAL,2014-08-27,1,845,0,Sin registrar
+846,Ivelisse Jimenez Cedeno,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,846,0,Sin registrar
+847,Massiel Abreu Terrero,0,0,0,Persona física,taxpayer,FABRICACION DE PRODUCTOS METALICOS,ACTIVO,NORMAL,2016-03-13,1,847,0,Sin registrar
+851,Massiel Rosario Castro,1,0,1,Persona física,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,ACTIVO,NORMAL,2022-04-08,1,851,0,Dominican Republic
+853,Josefina Nunez Severino,1,0,1,Persona física,taxpayer,ACTIVIDADES DE ATENCION DE LA SALUD HUMANA,ACTIVO,NORMAL,2012-11-18,1,853,0,Sin registrar
+859,Carlos Peralta Hiciano,0,0,1,Persona física,taxpayer,TRANSPORTE DE CARGA POR CARRETERA,SUSPENDIDO,NORMAL,2010-01-14,1,859,0,Sin registrar
+860,Juan Sanchez Pujols,1,1,1,Persona física,taxpayer,CONSTRUCCION DE EDIFICIOS RESIDENCIALES,SUSPENDIDO,NORMAL,2022-10-29,1,860,0,Sin registrar
+861,Yudelka Rosario Mejia,1,0,1,Persona física,taxpayer,FABRICACION DE PRODUCTOS METALICOS,SUSPENDIDO,NORMAL,2017-01-25,1,861,0,Sin registrar
+865,Juan Cedeno Reynoso,1,0,0,Persona física,taxpayer,COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS,SUSPENDIDO,NORMAL,2016-10-14,1,865,0,Dominican Republic
+866,Ingrid Guerrero Guerrero,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,866,0,Sin registrar
+870,Carmen Montero Objio,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,870,0,Sin registrar
+881,Miguel Terrero Montero,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,881,0,Sin registrar
+883,Nurys Abreu Valdez,1,0,0,Persona física,taxpayer,ACTIVIDADES DE CONSULTORIA DE GESTION,SUSPENDIDO,NORMAL,2014-03-21,1,883,0,Sin registrar
+884,Josefina Ventura Castro,1,0,0,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,884,0,Sin registrar
+888,Alberto Jimenez Terrero,1,0,1,Persona física,taxpayer,Sin registrar,Sin verificar,Sin registrar,,0,888,0,Sin registrar
+892,Eduardo Bautista Ventura,1,0,0,Persona física,taxpayer,TRANSPORTE DE CARGA POR CARRETERA,SUSPENDIDO,NORMAL,2019-06-06,1,892,0,Sin registrar
+898,Fernando Reynoso Montero,0,0,1,Persona física,foreigner,Sin registrar,Sin verificar,Sin registrar,,0,898,0,Argentina

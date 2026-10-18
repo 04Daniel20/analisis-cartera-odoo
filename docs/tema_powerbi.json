@@ -1,0 +1,76 @@
+{
+  "name": "Tema corporativo - Reporte Financiero",
+  "dataColors": [
+    "#1F4E79",
+    "#7A96B8",
+    "#C1571A",
+    "#6B7590",
+    "#3F7A5E",
+    "#A8BDD4",
+    "#8C5A2B",
+    "#49566E"
+  ],
+  "good": "#3F7A5E",
+  "neutral": "#6B7590",
+  "bad": "#C05442",
+  "background": "#FFFFFF",
+  "foreground": "#1A2238",
+  "tableAccent": "#1F4E79",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#1A2238"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#1A2238"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#2C3752"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 30,
+      "color": "#1A2238"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#D9DEE8" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F7F9FC" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#F7F9FC" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

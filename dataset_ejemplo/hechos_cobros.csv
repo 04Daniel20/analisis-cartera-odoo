@@ -1,0 +1,98 @@
+﻿id_cobro,referencia,fecha_cobro,monto_cobrado,id_cliente,id_entidad,metodo_pago,estado,aplicado_a_factura,conciliado_con_banco,facturas_saldadas
+1,COB/2025/00001,2025-08-19,38114.23,135,1,Cheque,paid,1,1,1
+2,COB/2025/00002,2025-05-08,20602.8,127,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,0,1
+3,COB/2026/00003,2026-09-01,54693.0,160,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,1,1
+4,COB/2025/00004,2025-11-29,2088.18,135,2,Transferencia bancaria,paid,1,0,1
+5,COB/2026/00005,2026-01-05,4380.0,218,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,0,1
+6,COB/2026/00006,2026-02-12,4283.4,127,2,Cheque,paid,1,0,1
+7,COB/2025/00007,2025-08-29,23741.6,159,2,Transferencia bancaria,paid,1,0,1
+8,COB/2025/00008,2025-09-11,17924.2,127,2,Transferencia bancaria,paid,1,1,1
+9,COB/2025/00009,2025-06-17,14938.8,160,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,0,1
+10,COB/2025/00010,2025-05-12,3956.69,168,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+11,COB/2025/00011,2025-08-30,33311.4,326,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+12,COB/2026/00012,2026-03-12,9593.4,102,2,Cheque,paid,1,1,1
+13,COB/2026/00013,2026-02-15,17228.0,160,4,Transferencia bancaria,paid,1,0,1
+14,COB/2026/00014,2026-08-20,4625.6,102,3,Cheque,paid,1,1,1
+15,COB/2026/00015,2026-01-04,21015.8,141,1,Deposito en banco,paid,1,0,1
+16,COB/2026/00016,2026-05-29,14620.2,160,4,Cheque,paid,1,0,1
+17,COB/2025/00017,2025-08-03,27387.8,117,1,Transferencia bancaria,paid,1,0,1
+18,COB/2026/00018,2026-07-31,1800.0,652,2,Transferencia bancaria,paid,1,1,1
+19,COB/2026/00019,2026-05-08,12342.8,160,2,Cheque,paid,1,1,1
+20,COB/2025/00020,2025-08-07,2124.0,824,1,Cheque,in_process,1,0,1
+21,COB/2025/00021,2025-12-05,27399.6,582,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+22,COB/2026/00022,2026-09-23,20201.6,135,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+23,COB/2025/00023,2025-11-19,4023.8,135,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+24,COB/2026/00024,2026-09-23,11351.6,141,2,Cheque,paid,1,0,1
+25,COB/2025/00025,2025-04-28,19411.0,135,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,1,1
+26,COB/2025/00026,2025-11-14,6938.4,102,1,Deposito en banco,paid,1,1,1
+27,COB/2026/00027,2026-08-30,5274.6,127,2,Deposito en banco,paid,1,0,1
+28,COB/2026/00028,2026-09-05,10760.0,312,2,Cheque,paid,1,0,1
+29,COB/2025/00029,2025-09-21,2639.32,103,1,Cheque,paid,1,1,1
+30,COB/2026/00030,2026-09-04,1800.0,898,1,Transferencia bancaria,paid,1,0,1
+31,COB/2026/00031,2026-04-15,10218.8,846,2,Deposito en banco,paid,1,0,1
+32,COB/2026/00032,2026-04-03,23340.4,117,2,Cheque,paid,1,1,1
+33,COB/2025/00033,2025-09-17,10714.4,103,2,Transferencia bancaria,paid,1,1,1
+34,COB/2025/00034,2025-09-19,10466.6,319,1,Deposito en banco,paid,1,0,1
+35,COB/2025/00035,2025-06-10,18655.8,313,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,1,1
+36,COB/2025/00036,2025-12-02,7850.0,287,2,Transferencia bancaria,paid,1,0,1
+37,COB/2026/00037,2026-01-12,11103.8,181,2,Transferencia bancaria,paid,1,0,1
+38,COB/2025/00038,2025-10-10,6136.0,192,2,Cheque,paid,1,0,1
+39,COB/2026/00039,2026-04-14,8920.8,135,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+40,COB/2026/00040,2026-03-22,34670.0,456,3,Pago manual (Efectivo Transporte Cibao EIRL),paid,1,1,1
+41,COB/2025/00041,2025-07-11,8106.6,261,2,Deposito en banco,paid,1,1,1
+42,COB/2026/00042,2026-08-18,9308.51,825,2,Transferencia bancaria,paid,1,1,1
+43,COB/2025/00043,2025-05-07,2218.4,463,4,Pago manual (Efectivo Metalurgica Boca Chica SAS),paid,1,0,1
+44,COB/2026/00044,2026-04-05,4708.83,206,1,Deposito en banco,paid,1,0,1
+45,COB/2026/00045,2026-02-01,19481.8,860,1,Deposito en banco,paid,1,0,1
+46,COB/2025/00046,2025-09-09,7370.0,721,2,Cheque,paid,1,1,1
+47,COB/2025/00047,2025-07-25,42970.0,309,1,Transferencia bancaria,paid,1,0,1
+48,COB/2025/00048,2025-08-29,7040.81,117,2,Pago manual (Efectivo Importadora del Sur SRL),in_process,1,0,1
+49,COB/2026/00049,2026-01-30,64487.0,135,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+50,COB/2026/00050,2026-04-08,10100.8,141,2,Cheque,in_process,1,0,1
+51,COB/2025/00051,2025-06-13,2997.2,160,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,1,1
+52,COB/2025/00052,2025-10-06,7658.2,160,2,Cheque,paid,1,0,1
+53,COB/2026/00053,2026-01-27,57466.0,141,2,Transferencia bancaria,paid,1,1,1
+54,COB/2026/00054,2026-09-30,6053.4,160,4,Cheque,paid,1,0,1
+55,COB/2026/00055,2026-09-07,8885.4,320,1,Transferencia bancaria,paid,1,0,1
+56,COB/2026/00056,2026-03-12,18278.2,206,2,Transferencia bancaria,paid,1,0,1
+57,COB/2025/00057,2025-05-18,24886.2,102,2,Cheque,in_process,1,0,1
+58,COB/2025/00058,2025-12-25,2773.0,866,1,Transferencia bancaria,paid,1,1,1
+59,COB/2026/00059,2026-03-20,42645.2,131,3,Cheque,paid,1,0,1
+60,COB/2026/00060,2026-09-13,4307.0,238,2,Pago manual (Efectivo Importadora del Sur SRL),canceled,1,1,1
+61,COB/2025/00061,2025-07-12,8460.38,159,2,Cheque,paid,1,0,1
+62,COB/2025/00062,2025-12-21,15564.2,127,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,0,1
+63,COB/2026/00063,2026-08-03,3044.4,103,2,Cheque,paid,1,0,1
+64,COB/2025/00064,2025-04-28,1800.0,168,2,Transferencia bancaria,in_process,1,0,1
+65,COB/2026/00065,2026-02-18,9664.2,103,6,Deposito en banco,paid,1,0,1
+66,COB/2026/00066,2026-09-09,3900.0,254,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+67,COB/2026/00067,2026-09-30,2127.64,168,2,Transferencia bancaria,paid,1,0,1
+68,COB/2025/00068,2025-05-03,14773.6,252,1,Deposito en banco,paid,1,1,1
+69,COB/2025/00069,2025-04-21,4071.0,656,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,1,1
+70,COB/2025/00070,2025-06-13,5700.0,495,2,Deposito en banco,paid,1,0,1
+71,COB/2026/00071,2026-03-31,12614.2,282,2,Deposito en banco,paid,1,1,1
+72,COB/2026/00072,2026-01-03,6230.4,141,2,Deposito en banco,paid,1,0,1
+73,COB/2025/00073,2025-09-17,8460.6,135,2,Deposito en banco,paid,1,1,1
+74,COB/2025/00074,2025-07-08,4908.8,284,2,Cheque,paid,1,0,1
+75,COB/2025/00075,2025-09-08,33264.2,727,2,Transferencia bancaria,paid,1,0,1
+76,COB/2026/00076,2026-09-30,2304.45,853,4,Deposito en banco,paid,1,0,1
+77,COB/2025/00077,2025-08-12,12190.0,783,2,Transferencia bancaria,paid,1,1,1
+78,COB/2025/00078,2025-06-12,5392.6,206,2,Cheque,paid,1,1,1
+79,COB/2025/00079,2025-06-10,8335.21,117,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,0,1
+80,COB/2025/00080,2025-07-31,30998.6,284,1,Deposito en banco,paid,1,0,1
+81,COB/2026/00081,2026-04-08,3846.8,102,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,1,1
+82,COB/2026/00082,2026-07-24,5947.2,194,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,0,1
+83,COB/2025/00083,2025-11-13,26361.2,245,2,Cheque,paid,1,0,1
+84,COB/2025/00084,2025-05-08,3403.35,102,2,Deposito en banco,paid,1,0,1
+85,COB/2026/00085,2026-09-16,13190.0,114,1,Cheque,paid,1,0,1
+86,COB/2026/00086,2026-09-08,1101.3,160,1,Pago manual (Efectivo Distribuidora Barahona SA),paid,1,0,1
+87,COB/2026/00087,2026-01-31,90694.8,131,1,Transferencia bancaria,paid,1,1,1
+88,COB/2025/00088,2025-08-09,9699.6,103,3,Deposito en banco,paid,1,0,1
+89,COB/2025/00089,2025-12-28,4094.6,833,2,Pago manual (Efectivo Importadora del Sur SRL),paid,1,1,1
+90,COB/2025/00090,2025-06-23,7920.0,294,2,Transferencia bancaria,paid,1,0,1
+91,COB/2025/00091,2025-09-12,24850.8,160,2,Cheque,paid,1,0,1
+92,COB/2025/00092,2025-06-17,4094.6,883,2,Cheque,paid,1,0,1
+93,COB/2026/00093,2026-07-19,8319.0,127,1,Deposito en banco,paid,1,0,2
+94,COB/2025/00094,2025-11-15,5780.3,794,1,Transferencia bancaria,paid,0,0,0
+95,COB/2026/00095,2026-02-25,19657.25,194,2,Transferencia bancaria,paid,0,0,0
+96,COB/2025/00096,2025-05-12,15173.03,299,1,Deposito en banco,paid,0,0,0
+97,COB/2026/00097,2026-09-01,29804.77,898,1,Efectivo,paid,0,0,0

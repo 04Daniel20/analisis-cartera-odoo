@@ -1,0 +1,47 @@
+﻿campo_tecnico,etiqueta,tipo,familia,significado_negocio,pregunta_que_responde,riesgo_calidad,entra_al_modelo
+date,Date,date,TIEMPO,Fecha contable del asiento. Puede diferir de la fecha de factura por cierres de período.,¿En qué período contable se reconoció el ingreso?,"Si difiere de invoice_date, definir cuál usar y documentar la decisión.",SI
+invoice_date,Invoice/Bill Date,date,TIEMPO,Fecha de emisión de la factura. Es el eje temporal de todo el análisis de ingresos.,"¿Cuánto se facturó en cada mes, trimestre o año?","Contar fechas distintas: si son pocas frente al total de facturas, la facturación es por tandas y no continua. Cambia cómo se leen las series mensuales.",SI
+invoice_date_due,Due Date,date,TIEMPO,Fecha en que vence el pago. Junto con la fecha de emisión revela el plazo de crédito otorgado.,¿Qué plazo de crédito damos y a quién?,"Indica cuándo DEBÍA pagarse, no cuándo se pagó. El cobro real está en account.payment.",SI
+amount_residual,Amount Due,monetary,MONTO,"Saldo pendiente de cobro. Si está en cero, la factura ya fue pagada.",¿Cuánto dinero está pendiente de cobrar y de quién?,No es el monto facturado. Confundirlos invalida todo el análisis de ingresos.,SI
+amount_tax,Tax,monetary,MONTO,ITBIS y demás impuestos de la factura. No es ingreso: es dinero de la DGII en tránsito.,¿Cuánto impuesto se está trasladando?,Pocos valores distintos de impuesto. Verificar exenciones y correcta aplicación de la tasa.,SI
+amount_total,Total,monetary,MONTO,"Monto total facturado, impuestos incluidos. Es lo que el cliente debe pagar.",¿Cuál es el valor total de la factura emitida?,"Si los montos distintos son muchos menos que las facturas, hay tarifas recurrentes estándar y no trabajos a medida.",SI
+amount_untaxed,Untaxed Amount,monetary,MONTO,Monto facturado sin impuestos. Es el ingreso real de la empresa.,"¿Cuál es el ingreso genuino, excluyendo el ITBIS que se le retiene a la DGII?",Es el campo correcto para medir ingresos. Usar amount_total infla la cifra.,SI
+commercial_partner_id,Commercial Entity,many2one,RELACION,Entidad comercial matriz del contacto. Agrupa sucursales bajo un mismo cliente.,¿Cuál es la concentración real de ingresos por grupo económico?,Analizar por partner_id en vez de este campo puede ocultar concentración.,SI
+company_id,Company,many2one,RELACION,Entidad emisora. Crítico: el sistema administra 8 entidades distintas.,¿Cuánto factura cada entidad de la cartera administrada?,Omitir este campo mezcla la facturación de empresas que no tienen relación entre sí.,SI
+journal_id,Journal,many2one,RELACION,Diario contable donde se registra el documento.,¿Por qué canal o tipo de operación entra cada registro?,Útil para separar operaciones distintas dentro de una misma entidad.,SI
+partner_id,Partner,many2one,RELACION,Cliente al que se emite la factura.,¿Quién genera el ingreso y qué tan concentrado está?,Verificar duplicados: suele haber más clientes registrados que clientes que facturan. Revisar inactivos y grafías repetidas.,SI
+payment_state,Payment Status,selection,ESTADO,"Estado de cobro: pagada, parcialmente pagada o pendiente.",¿Qué proporción de lo facturado ya se cobró?,Es un estado calculado; contrastarlo con amount_residual para verificar coherencia.,SI
+name,Number,char,CLASIFICACION,Número del documento. En facturas de cliente es el correlativo interno del sistema.,¿Cómo identifico una factura de forma única?,No confundir con el NCF: el correlativo interno no es el comprobante fiscal.,SI
+ref,Reference,char,CLASIFICACION,Referencia libre del documento.,¿Hay información del negocio escrita a mano en este campo?,Campo de texto libre: propenso a formatos inconsistentes.,SI
+invoice_origin,Origin,char,CLASIFICACION,"Documento de origen: pedido, contrato o referencia previa.",¿De dónde nace esta factura?,Suele estar vacío si no se usa el módulo de ventas.,SI
+amount_residual_signed,Amount Due Signed,monetary,ESPEJO,"Mismo saldo pendiente, con signo.",,Redundante con amount_residual.,NO
+amount_tax_signed,Tax Signed,monetary,ESPEJO,"Mismo impuesto, con signo.",,Redundante con amount_tax.,NO
+amount_total_in_currency_signed,Total in Currency Signed,monetary,ESPEJO,"Total en moneda del documento, con signo.",,Redundante. El sistema opera en una sola moneda.,NO
+amount_total_signed,Total Signed,monetary,ESPEJO,"Mismo monto total, con signo negativo en notas de crédito.",,Redundante con amount_total. Solo útil si se suman facturas y notas de crédito juntas.,NO
+amount_untaxed_in_currency_signed,Untaxed Amount Signed Currency,monetary,ESPEJO,"Monto sin impuestos en moneda del documento, con signo.",,Redundante. Moneda única.,NO
+amount_untaxed_signed,Untaxed Amount Signed,monetary,ESPEJO,"Mismo monto sin impuestos, con signo.",,Redundante con amount_untaxed.,NO
+fh_total_credit,Total crédito,monetary,MONTO,Campo añadido por una personalización externa al núcleo de Odoo.,,El prefijo fh_ no pertenece a Odoo estándar. Preguntar al implementador qué calcula.,PREGUNTAR
+fh_total_debit,Total débito,monetary,MONTO,Campo añadido por una personalización externa al núcleo de Odoo.,,Mismo caso. No documentarlo por suposición: preguntarlo.,PREGUNTAR
+l10n_do_sequence_number,Número secuencia NCF (compat.),integer,CLASIFICACION,Número correlativo dentro de la secuencia de NCF.,,El prefijo aporta el significado; el correlativo solo ordena.,NO
+sequence_number,Sequence Number,integer,TECNICO,Correlativo interno del documento.,,"Numeración del sistema, distinta del comprobante fiscal.",NO
+invoice_user_id,Salesperson,many2one,CLASIFICACION,Persona responsable de la factura.,,"Habilita analizar la cartera por responsable. Dimensión nueva, no estaba en ningún reporte previo.",SI
+l10n_do_sequence_id,Tipo eCF,many2one,CLASIFICACION,Tipo de comprobante electrónico configurado.,,"Confirma qué tipos de comprobante fiscal se emiten realmente, que suelen ser menos que los configurados.",SI
+partner_shipping_id,Delivery Address,many2one,CLASIFICACION,Dirección de entrega de la factura.,,En servicios profesionales coincide con el cliente. Sin valor analítico aquí.,NO
+audit_trail_message_ids,Audit Trail Messages,one2many,TECNICO,Registro automático de cambios del documento.,,"Lo genera el sistema. Sirve para auditoría, no para análisis.",NO
+invoice_line_ids,Invoice lines,one2many,RELACION,Lista de líneas de la factura.,,"Define la relación factura-líneas. En el modelo es un join, no una medida.",NO
+invoice_partner_display_name,Invoice Partner Display Name,char,ESPEJO,Nombre del cliente copiado en la factura.,,"Redundante con partner_id. Usar siempre el identificador, no el texto.",NO
+journal_line_ids,Journal Items (DEPRECATED),one2many,RELACION,Versión antigua de line_ids.,,La etiqueta del propio sistema dice DEPRECATED. Ignorar.,NO
+l10n_do_invoice_ncf_type_ids,Tipos NCF (filtro impuestos e-CF),many2many,CLASIFICACION,Tipos de NCF usados para filtrar impuestos.,,Configuración interna del módulo fiscal.,NO
+l10n_do_ncf,NCF almacenado,char,CLASIFICACION,Comprobante fiscal emitido. El prefijo define si es crédito fiscal o consumo.,,"Poblado al completo, pero con menos valores distintos que facturas. VERIFICAR si hay NCF repetidos.",SI
+l10n_do_sequence_prefix,Prefijo secuencia NCF (compat.),char,CLASIFICACION,Prefijo de la secuencia de comprobantes. Define el tipo fiscal del documento.,,El prefijo del NCF da la segmentación B2B contra B2C de forma directa.,SI
+line_ids,Journal Items,one2many,RELACION,Lista de apuntes contables del asiento.,,Join hacia account.move.line.,NO
+payment_reference,Payment Reference,char,TECNICO,Referencia de pago impresa en la factura.,,Normalmente repite el número del documento.,NO
+sequence_prefix,Sequence Prefix,char,TECNICO,Prefijo de la numeración interna.,,Equivalente interno del prefijo fiscal. Usar el de NCF.,NO
+invoice_payment_term_id,Payment Terms,many2one,CLASIFICACION,"Condición de pago pactada: contado, 30 días, etc.",,Parcialmente poblado. Comparar el plazo pactado contra el efectivamente cumplido.,SI
+l10n_do_rnc_input,RNC,char,CLASIFICACION,RNC tal como se capturó antes de validarse.,,Campo intermedio del proceso de validación. Usar 'vat'.,NO
+l10n_do_rnc_last_checked,Verificado en DGII el,datetime,TIEMPO,Última vez que el RNC se verificó contra la DGII.,,Poblado a medias: la verificación existe pero no se aplica siempre. Preguntar cuál es el criterio.,SI
+matched_payment_ids,Matched Payments,many2many,RELACION,Pagos que saldan esta factura. El otro lado del mismo enlace.,,Poblado parcialmente: no todas las facturas tienen pago conciliado.,SI
+l10n_do_rnc_economic_activity,Actividad económica (DGII),char,CLASIFICACION,Actividad económica del cliente según registro en la DGII.,,DA LA SEGMENTACION SECTORIAL DE LA CARTERA. Dato sensible: identifica al cliente final.,SI
+l10n_do_rnc_fiscal_name,Nombre fiscal (DGII),char,CLASIFICACION,Razón social registrada en la DGII.,,"Útil para validar que el nombre en el sistema coincide con el oficial, no para segmentar.",NO
+l10n_do_rnc_status,Estado DGII,char,ESTADO,"Estado del RNC en la DGII: activo, suspendido u otro.",,Un cliente con RNC no activo es un riesgo al emitir crédito fiscal.,SI
+l10n_do_rnc_warning,Aviso de verificación,char,ESTADO,Aviso generado cuando la verificación encuentra discrepancias.,,"Poco poblado. Revisarlo como incidencia puntual, no como dimensión de análisis.",NO
